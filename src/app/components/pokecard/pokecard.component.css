@@ -1,0 +1,29 @@
+.poke-card{
+    width: 300px;
+    background-color: rgb(187, 187, 187);
+    box-shadow: 2px 2px 6px rgb(75, 75, 75);
+    border-radius: 8px;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-container{
+    background-color:black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.poke-card h3{
+    color: #eb084c;
+}

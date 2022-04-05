@@ -1,0 +1,6 @@
+<div class="input-container">
+    <input class="poke-input" type="text" [(ngModel)]="inputString">
+</div>
+
+<!-- the child component pokelist receiving pokeName from the parent component pokesearch -->
+<app-pokelist [pokeName]="inputString"></app-pokelist>

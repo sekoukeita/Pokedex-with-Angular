@@ -1,0 +1,9 @@
+
+
+<div *ngIf="pokeList"> <!-- if there is response from the request -->
+    <div class="poke-list-container" *ngFor="let pokemon of tempList">
+        <!-- $event as argument allows to retrieve the div element that has been clicked (the target) -->
+        <div class="poke-item" (click)="goToDetails($event)">{{pokemon.name}}</div>
+    </div>
+</div>
+
